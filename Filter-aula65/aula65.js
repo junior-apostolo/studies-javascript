@@ -1,4 +1,4 @@
-// Filter -> retorna um Array, com a mesma quantidade de elementos ou menos.
+// Filter -> retorna um novo Array, com a mesma quantidade de elementos ou menos.
 
 // const numeros = [5, 10, 23, 45, 6, 2, 7, 95, 62, 8];
 // const newArray = numeros.filter((valor, index) => {
