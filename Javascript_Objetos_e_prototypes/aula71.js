@@ -1,5 +1,5 @@
 function Produto(nome, preco, estoque) {
-  // define uma nova propriedade diretamente em um objeto, 
+  // define uma nova propriedade diretamente em um objeto,
   // ou modifica uma propriedade já existente em um objeto, e retorna o objeto.
   Object.defineProperty(this, "estoque", {
     enumerable: true, // mostra a chave
@@ -27,6 +27,6 @@ function Produto(nome, preco, estoque) {
 const p1 = new Produto("Camisa", 22, 5);
 console.log(p1);
 
-for(let chave in p1){
-    console.log(chave)
+for (let chave in p1) {
+  console.log(chave);
 }
